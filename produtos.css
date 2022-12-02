@@ -1,0 +1,92 @@
+header
+{background:#bbbbbb;
+padding:20px 0;
+}
+.caixa{
+  position:relative;
+  width:1600px;
+  margin: 0 auto;
+}
+nav
+{position:absolute;
+top:130px;
+right:0}
+
+nav li
+{display: inline;
+margin: 0 0 0 15px}
+
+nav a
+{ text-transform:uppercase;
+color:#000000;
+font-weight:bold;
+font-size: 22px;
+text-decoration:none}
+
+nav a:hover {
+  color: #848c94;
+  text-decoration: underline;
+}
+
+.produtos
+{width: 1300px;
+  margin: 0 auto;
+  padding: 50px 0}
+
+
+.imagemprodutos
+{width:90%}
+
+.produtos li
+{display: inline-block;
+text-align: center;
+width:30%;
+vertical-align:top;
+margin: 0 1.5%;
+padding: 50px 0px;
+box-sizing: border-box;
+border-color: #000000;
+border-width: 3px;
+border-style:solid;
+border-radius: 10px;}
+
+.produtos li:hover 
+{border-color: #ccb952}
+
+.produtos li:active
+{border-color: #f13737;}
+
+.produtos li:hover h2
+{font-size: 40px}
+
+.produtos li:hover img
+{width:100%}
+
+.produtos li:hover p1
+{font-size: 30px}
+
+.produtos li:hover p2
+{font-size: 38px}
+
+.produtos h2
+{font-size: 30px;
+  font-weight: bold}
+
+.produtodescricao
+{font-size: 26px}
+
+.produtopreco {
+  font-size: 22px;
+  font-weight: bold;
+margin-top: 10px
+}
+footer {
+  text-align:center;
+  background: url(" https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg?auto=format&h=200  ");
+  padding: 40px 0;
+}
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
